@@ -6,7 +6,7 @@
 
  /* Defino as cores personalizadas escolhidas pelo grupo*/
 .tom-vermelho-1{
-  background-color: #590209;
+  background-color: #590209 !important;
 }
 
 .tom-vermelho-1-text{
@@ -22,7 +22,7 @@
 }
 
 .tom-vermelho-2{
-  background-color: #A60303;
+  background-color: #A60303 !important;
 }
 
 .tom-vermelho-2-text{
@@ -34,11 +34,11 @@
 }
 
 .tom-cinza-text{
-  color: #D9D9D9;
+  color: #D9D9D9 !important;
 }
 
 .tom-preto{
-  background-color: #0D0D0D;
+  background-color: #0D0D0D !important;
 }
 
 .tom-preto-text{
