@@ -1,0 +1,26 @@
+/* Estilos refentes a Navbar */
+#logoHeader{
+    height: 130px;
+}
+
+#navbar{
+    height: 65px;
+}
+
+.roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    height: 65px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#texto-parallax-1{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 400;
+}
