@@ -165,10 +165,11 @@ E pronto, as alterações foram salvas!
   <ul>
     <li>materialize.css</li>
     <li>materialize.min.js</li>
+    <li>style.css</li>
     <li>https://code.jquery.com/jquery-3.7.0.min.js</li>
   </ul>
   
-  Crie uma folha de estilo (um arquivo .css, animal) para a página que você fazer, por questões de otimização e organização (e também porque eu não quero nenhum arrombado zaralhando meu css).
+  Crie uma folha de estilo (um arquivo .css, animal) para a página que você fazer, por questões de otimização e organização (e também porque eu não quero nenhum arrombado zaralhando meu css). O arquivo style.css contém algumas configurações globais, então importe ele também além da sua folha de estilo.
   <br>
   Agora iremos abordar o <b>init.js</b>, tenha muito cuidado ao mexer nele, seu fodido!
   <hr>
