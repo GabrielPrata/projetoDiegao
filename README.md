@@ -107,7 +107,7 @@ Irei dividir esta sessão em alguns tópicos, são eles:
   <blockquote><em>Ain Prata mas como eu faço o Commit com as alterações?</em></blockquote>
   <br>
   
-  Calma sua anomalia, antes por questões de padronização há alguns prefixos utilizados para saber o que foi feito no preto. Irei citar apenas alguns que são os mais utilizados e que provavelmente serão utilizados apenas eles em cada projeto. São eles:
+  Calma sua anomalia, antes por questões de padronização há alguns prefixos utilizados para saber o que foi feito no projeto. Irei citar apenas alguns que são os mais utilizados e que provavelmente serão utilizados apenas eles em cada projeto. São eles:
   <ol>
     <li>[wip] --> Utilizado quando uma funcionalidade ainda não concluída.</li>
     <li>[fix] --> Utilizado para a correção de bugs e quando finalizamos alguma funcionalidade</li>
