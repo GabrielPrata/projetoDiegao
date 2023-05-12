@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
+  $(".parallax").parallax();
 
   //#region Tabs do Sobre
   var options = { swipeable: true, duration: 600 };

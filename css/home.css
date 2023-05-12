@@ -1,0 +1,93 @@
+#texto-parallax-1 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#imagemHomemChurrasqueira {
+    width: 100%;
+    font-size: 20px;
+}
+
+#paragrafo-parallax-1 {
+    font-size: 20px;
+}
+
+i {
+    font-size: 40px;
+}
+
+/* Abaixo o CSS para as animações */
+
+#titulo1 {
+    opacity: 0;
+    transform: translate(0px, -50px);
+    transition: .3s all ease;
+}
+
+#texto1 {
+    opacity: 0;
+    transform: translate(-50px, 0px);
+    transition: .9s all ease;
+}
+
+#img1 {
+    opacity: 0;
+    transform: translate(50px, 0px);
+    transition: .3s all ease;
+}
+
+#titulo2{
+    opacity: 0;
+    transform: translate(0px, -50px);
+    transition: .3s all ease;
+}
+
+#icon1{
+    opacity: 0;
+    transform: translate(0px, -50px) scale(0.5);
+    transition: .3s all ease;
+}
+
+#icon2{
+    opacity: 0;
+    transform: translate(0px, -50px) scale(0.5);
+    transition: .6s all ease;
+}
+
+#icon3{
+    opacity: 0;
+    transform: translate(0px, -50px) scale(0.5);
+    transition: .9s all ease;
+}
+
+
+#textIcon1{
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: .3s all ease;
+}
+
+#textIcon2{
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: .6s all ease;
+}
+
+#textIcon3{
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: .9s all ease;
+}
+
+#titulo3{
+    opacity: 0;
+    transform: translate(0px, -50px);
+    transition: .3s all ease;
+}
+
+#mapa{
+    opacity: 0;
+    transform: translate(0px, 0px) scale(0.5);
+    transition: .7s all ease;
+}
