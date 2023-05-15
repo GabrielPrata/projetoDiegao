@@ -44,7 +44,7 @@
 
     <section>
         <div class="parallax-container valign-wrapper">
-            <div class="section no-pad-bot">
+            <div class="section no-pad-bot row">
                 <div class="container">
                     <div class="row center">
                         <h5 class="tom-cinza-text">"Não fazemos churrasqueiras, transformamos vidas e propomos
