@@ -40,7 +40,7 @@ echo $APP_IMAGE_PATH . 'icons/instagram.png';
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="<?php echo 'C:/xampp/htdocs/img/icons/facebook.png' ?>" alt="Ícone Facebook"
+                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/facebook.png' ?>" alt="Ícone Facebook"
                                 class="icones">
                         </a>
                     </li>
