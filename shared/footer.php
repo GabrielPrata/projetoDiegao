@@ -1,13 +1,10 @@
-<?php
-echo $APP_IMAGE_PATH . 'icons/instagram.png';
-?>
-
 <footer class="page-footer tom-vermelho-1">
     <div class="container">
         <div class="row">
             <div class="col l4 s12">
 
-                <?php echo '<img src="' . $APP_IMAGE_PATH . 'logo_PoliGrill_branco.png' . '" alt="Logo PoliGrill">' ?>
+
+                <img src="<?php echo $APP_IMAGE_PATH . 'logo_PoliGrill_branco.png' ?>" alt="Logo PoliGrill">
 
             </div>
             <div class="col l4 s12">
@@ -40,20 +37,17 @@ echo $APP_IMAGE_PATH . 'icons/instagram.png';
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/facebook.png' ?>" alt="Ícone Facebook"
-                                class="icones">
+                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/facebook.png' ?>" alt="Ícone Facebook" class="icones">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/instagram.png' ?>" alt="Ícone Instagram"
-                                class="icones">
+                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/instagram.png' ?>" alt="Ícone Instagram" class="icones">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/youtube.png' ?>" alt="Ícone Youtube"
-                                class="icones">
+                            <img src="<?php echo $APP_IMAGE_PATH . 'icons/youtube.png' ?>" alt="Ícone Youtube" class="icones">
                         </a>
                     </li>
                 </ul>
@@ -64,12 +58,11 @@ echo $APP_IMAGE_PATH . 'icons/instagram.png';
         <div class="container">
             <?php
             echo date('Y') . " - Gatinhas Malvadas"
-                ?>
+            ?>
             <a class="grey-text text-lighten-4 right" href="#!">Trabalho MA2</a>
         </div>
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script src="../js/init.js" defer></script>

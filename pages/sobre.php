@@ -8,8 +8,8 @@
   <title>Sobre</title>
 
   <!-- Estilos -->
-  <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" type="text/css" href="../css/materialize.css" media="screen, projection" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection" />
 
   <!-- JavaScript -->
   <script src="../js/materialize.min.js" defer></script>
@@ -18,7 +18,7 @@
 <body>
   <?php
   include '../config.php';
-  include $APP_SHARED_PATH . '/navbar.html';
+  include $APP_SHARED_PATH . '/navbar.php';
   ?>
   <div class="row">
     <div class="col s12">
