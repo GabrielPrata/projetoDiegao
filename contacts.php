@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <title>Contatos</title>
 </head>
+
 <body>
     <header>
         <?php include 'navbar.html'; ?>
-      </header>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col m10 offset-m1 s12">
@@ -29,17 +31,17 @@
                                 <label for="email"></label>
                             </div>
                             <div class="input-field col s12">
-                              <textarea id="message" class="materialize-textarea" placeholder="Mensagem"></textarea>
-                              <label for="message"></label>
+                                <textarea id="message" class="materialize-textarea" placeholder="Mensagem"></textarea>
+                                <label for="message"></label>
                             </div>
-                          </div>
-                          <div class="wrap">
+                        </div>
+                        <div class="wrap">
                             <a class="button blue" href="">Enviar</a>
-                          </div>
-                          <div class="text">
+                        </div>
+                        <div class="text">
                             <h1>Se preferir entre em contato atráves de outros links!</h1>
-                          </div>
-                          <div class="links">
+                        </div>
+                        <div class="links">
                             <a href="https://wa.me/5519982870034">
                                 <img src="img/whats.png" alt="whats">
                             </a>
@@ -49,14 +51,15 @@
                             <a href="mailto:contato@poligrill.com.br">
                                 <img src="img/email.png" alt="email">
                             </a>
-                          </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
     <footer>
-      <?php include 'footer.php' ?>
+        <?php include 'footer.php' ?>
     </footer>
 </body>
+
 </html>
