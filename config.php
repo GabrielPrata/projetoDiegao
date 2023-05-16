@@ -2,11 +2,12 @@
 define('APP_BASE_PATH', dirname(__FILE__));
 
 $dir =  getcwd();
+$dir = substr($dir, -5);
 
-if ($dir == "projetoDiegao") {
-    $APP_IMAGE_PATH =  'img/';
+if ($dir == "pages") {
+    $APP_IMAGE_PATH =  '../img/';
 }else{
-    $APP_IMAGE_PATH = '../img/';
+    $APP_IMAGE_PATH = 'img/';
 }
 
 

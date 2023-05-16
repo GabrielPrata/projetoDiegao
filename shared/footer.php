@@ -1,7 +1,3 @@
-<?php
-echo $APP_IMAGE_PATH . 'icons/instagram.png';
-?>
-
 <footer class="page-footer tom-vermelho-1">
     <div class="container">
         <div class="row">
