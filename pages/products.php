@@ -31,7 +31,7 @@
 
 <body>
     <?php
-    include 'navbar.html';
+    include 'navbar.php';
     ?>
 
     <a href="#WhatsApp" onclick="tamanhoTela()">

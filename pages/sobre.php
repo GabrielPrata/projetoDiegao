@@ -18,7 +18,7 @@
 <body>
   <?php
   include '../config.php';
-  include $APP_SHARED_PATH . '/navbar.html';
+  include $APP_SHARED_PATH . '/navbar.php';
   ?>
   <div class="row">
     <div class="col s12">
