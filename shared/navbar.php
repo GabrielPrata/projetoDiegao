@@ -1,16 +1,15 @@
-
 <header class="navbar-fixed">
     <nav class="tom-vermelho-1 roboto" role="navigation" id="navbar">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo left">
-                <?php echo '<img id="logoHeader" src="' . $APP_IMAGE_PATH . 'logo_PoliGrill_fundo_preto.png' . '" alt="Logo PoliGrill">' ?>
+                <img id="logoHeader" src="<?php echo $APP_IMAGE_PATH . 'logo_PoliGrill_fundo_preto.png' ?>" alt="Logo PoliGrill">
             </a>
 
             <ul class="right hide-on-med-and-down">
-                <li><a href="#" class="tom-cinza-text">Home</a></li>
-                <li><a href="#" class="tom-cinza-text">Produtos</a></li>
-                <li><a href="#" class="tom-cinza-text">Contato</a></li>
-                <li><a href="/projetoDiegao/pages/sobre.php" class="tom-cinza-text">Sobre</a></li>
+                <li><a href="<?php echo $APP_HOME_PATH . 'index.php' ?>" class="tom-cinza-text">Home</a></li>
+                <li><a href="<?php echo $APP_SHARED_PATH . 'products.php' ?>" class="tom-cinza-text">Produtos</a></li>
+                <li><a href="<?php echo $APP_SHARED_PATH . 'contact.php' ?>" class="tom-cinza-text">Contato</a></li>
+                <li><a href="<?php echo $APP_PAGES_PATH . 'sobre.php' ?>" class="tom-cinza-text">Sobre</a></li>
             </ul>
         </div>
     </nav>
