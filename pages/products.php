@@ -31,7 +31,8 @@
 
 <body>
     <?php
-    include 'navbar.php';
+    include '../config.php';
+    include $APP_SHARED_PATH . '/navbar.php';
     ?>
 
     <a href="#WhatsApp" onclick="tamanhoTela()">

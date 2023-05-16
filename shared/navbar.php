@@ -7,8 +7,8 @@
 
             <ul class="right hide-on-med-and-down">
                 <li><a href="<?php echo $APP_HOME_PATH . 'index.php' ?>" class="tom-cinza-text">Home</a></li>
-                <li><a href="<?php echo $APP_SHARED_PATH . 'products.php' ?>" class="tom-cinza-text">Produtos</a></li>
-                <li><a href="<?php echo $APP_SHARED_PATH . 'contact.php' ?>" class="tom-cinza-text">Contato</a></li>
+                <li><a href="<?php echo $APP_PAGES_PATH . 'products.php' ?>" class="tom-cinza-text">Produtos</a></li>
+                <li><a href="<?php echo $APP_PAGES_PATH . 'contact.php' ?>" class="tom-cinza-text">Contato</a></li>
                 <li><a href="<?php echo $APP_PAGES_PATH . 'sobre.php' ?>" class="tom-cinza-text">Sobre</a></li>
             </ul>
         </div>
