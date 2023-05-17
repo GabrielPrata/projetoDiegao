@@ -1,10 +1,11 @@
-    .center-align{
+    .center-align-contato{
         color: #590209;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
     }
 
 
-    #message {
+    #message-contato {
         font-size: 120%;
         padding: 1%;
         width: 100%;
@@ -14,17 +15,12 @@
         outline: 1px solid #0d0d0d;
     }
 
-    #message:focus {
+    #message-contato:focus {
         outline: none;
         box-shadow: 0 0 10px rgba(47, 125, 109, 0.5);
         border: 2px solid #2f7d6d;
     }
 
-
-    .wrap {
-        margin-top: 20px;
-        text-align: center;
-    }
     
     .button {
         display: inline-block;
@@ -55,18 +51,23 @@
         color: white;
     }
 
-    img{
-        display: flex;
-        float: left;
-        margin-left: 5%;
-        width: 7%;
-      }
-
       
-      form {
+    #formulario_contato {
         border: 2px solid black;
         padding: 20px;
       }
+
+    input::placeholder{
+        color: #0d0d0d;
+    }
+
+    textarea::placeholder{
+        color: #0d0d0d;
+    }
+    
+
+
+      
       
 
     
