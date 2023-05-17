@@ -79,3 +79,8 @@ A animação só ocorre de forma suave devido ao transition adicionado em cada e
 .tabs-content {
   min-height: 100vh !important;
 }
+
+.paragrafo-sobre {
+  text-align: justify;
+  text-justify: inter-word;
+}
