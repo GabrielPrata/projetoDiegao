@@ -23,7 +23,7 @@
   <div class="container">
     <div class="row">
       <div class="s12">
-        <h2 class="">Sobre a PoliGrill</h2>
+        <h2 class="text-center">Alguns de Nossos Clientes</h2>
       </div>
       <div class="s12 m6">
         <div class="carousel">
@@ -38,12 +38,12 @@
         </div>
       </div>
       <div class="s12 m4">
-        <h6 class=" paragrafo-sobre">
+        <h6 class="paragrafo-sobre">
           A PoliGrill, marca renomada de churrasqueiras, é uma empresa líder do setor, sediada em Limeira, São
           Paulo. Situada em uma região reconhecida por sua excelência industrial, a PoliGrill pertence à OMZIPI, uma
           empresa especializada em jóias, fábricas automotivas e maquinários para a indústria agro.
         </h6>
-        <h6 class=" paragrafo-sobre">
+        <h6 class="paragrafo-sobre">
           Combinando a expertise em projetos industriais e a paixão pela culinária, a PoliGrill se esforça para
           oferecer churrasqueiras que vão além das expectativas dos clientes. Nossa marca representa a fusão perfeita
           entre design inovador, desempenho excepcional e uma experiência gastronômica única. Com a PoliGrill, você
