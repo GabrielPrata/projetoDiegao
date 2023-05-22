@@ -1,67 +1,67 @@
 /* Estilos refentes a Navbar */
 #logoHeader {
-    height: 130px;
+  height: 130px;
 }
 
 #navbar {
-    height: 65px;
+  height: 65px;
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    height: 65px;
+  height: 65px;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #D9D9D9;
+  font-family: "Montserrat", sans-serif;
+  background-color: #d9d9d9;
 }
 
 .titulos {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .icones {
-    width: 40px;
+  width: 40px;
 }
 
-#popupZap{
-    width: 70px !important;
+#popupZap {
+  width: 70px !important;
 }
 
 /* Estilo do pop-up do WhatsApp */
 #popupZap {
-    width: 8%;
-    position: fixed;
-    bottom: 0px;
-    right: 25px;
-    z-index: 3;
-    animation: go-back 3s infinite;
+  width: 8%;
+  position: fixed;
+  bottom: 0px;
+  right: 25px;
+  z-index: 3;
+  animation: go-back 3s infinite;
 }
 
 @keyframes go-back {
-    0% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
 
-    25% {
-        transform: translateY(0px);
-    }
+  25% {
+    transform: translateY(0px);
+  }
 
-    50% {
-        transform: translateY(-40px);
-    }
+  50% {
+    transform: translateY(-40px);
+  }
 
-    75% {
-        transform: translateY(0px);
-    }
+  75% {
+    transform: translateY(0px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 /* Estilo para as animações */
@@ -72,6 +72,15 @@ A animação só ocorre de forma suave devido ao transition adicionado em cada e
 */
 
 .animar {
-	opacity: 1 !important;
-	transform: translate(0px, 0px) !important;
+  opacity: 1 !important;
+  transform: translate(0px, 0px) !important;
+}
+
+.tabs-content {
+  min-height: 100vh !important;
+}
+
+.paragrafo-sobre {
+  text-align: justify;
+  text-justify: inter-word;
 }
