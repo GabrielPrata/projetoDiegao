@@ -3,6 +3,10 @@
   height: 130px;
 }
 
+#logo-container{
+  text-align: left !important;
+}
+
 #navbar {
   height: 65px;
 }
@@ -83,4 +87,16 @@ A animação só ocorre de forma suave devido ao transition adicionado em cada e
 .paragrafo-sobre {
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+@media (max-width: 600px)
+{
+  #logoHeader {
+    height: 100px;
+  }
+
+  #logo-container{
+    text-align: center !important;
+  }
 }

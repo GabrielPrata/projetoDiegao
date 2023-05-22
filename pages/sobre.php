@@ -8,6 +8,7 @@ include '../config.php';
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Sobre a PoliGrill</title>
 
   <!-- Estilos -->
@@ -58,15 +59,15 @@ include '../config.php';
 
     <div class="row">
       <div class="col s12">
-        <ul class="tabs tabs-fixed-width" id="tabSobre">
+        <ul class="tabs tabs-fixed-width tom-vermelho-2" id="tabSobre">
           <li class="tab col s6 m4">
-            <a class="active" href="#sobre-nos">Quem Somos?</a>
+            <a class="active tom-cinza-text" href="#sobre-nos">Quem Somos?</a>
           </li>
           <li class="tab col s6 m4">
-            <a href="#o-que-fazemos">O que fazemos?</a>
+            <a href="#o-que-fazemos" class="tom-cinza-text">O que fazemos?</a>
           </li>
           <li class="tab col s7 m4">
-            <a href="#como-nascemos">Como nascemos?</a>
+            <a href="#como-nascemos" class="tom-cinza-text">Como nascemos?</a>
           </li>
         </ul>
       </div>

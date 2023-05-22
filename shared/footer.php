@@ -1,11 +1,8 @@
 <footer class="page-footer tom-vermelho-1">
     <div class="container">
         <div class="row">
-            <div class="col l4 s12">
-
-
+            <div class="col l4 s12 center">
                 <img src="<?php echo $APP_IMAGE_PATH . 'logo_PoliGrill_branco.png' ?>" alt="Logo PoliGrill">
-
             </div>
             <div class="col l4 s12">
                 <h5 class="roboto">Informações:</h5>

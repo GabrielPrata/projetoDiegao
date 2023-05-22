@@ -1,5 +1,7 @@
 <!-- Página feita por Giovane -->
-
+<?php
+include '../config.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,25 +10,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="img/icons/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
 
     <!-- Estilos -->
-    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="../css/contacts.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection">
+    <link href="<?php echo $APP_CSS_PATH . 'materialize.css'; ?>" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'style.css'; ?>" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'contacts.css'; ?>" media="screen, projection">
 
     <!-- JavaScript -->
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="../js/materialize.min.js" defer></script>
-    <script src="../js/init.js"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH .  'materialize.min.js'; ?>" defer></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'init.js'; ?> "></script>
     <title>Contatos</title>
 </head>
 
 <body>
     <header>
     <?php
-    include '../config.php';
     include $APP_SHARED_PATH . '/navbar.php';
     ?>
     </header>
