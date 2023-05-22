@@ -18,15 +18,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400&display=swap" rel="stylesheet">
 
     <!-- Estilos -->
-    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection">
+    <link href="<?php echo $APP_CSS_PATH . 'materialize.css'; ?>" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'style.css'; ?>" media="screen, projection">
 
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="../js/materialize.min.js" defer></script>
-    <script src="../js/init.js"></script>
-    <script src="../js/popUpWhats.js"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH .  'materialize.min.js'; ?>" defer></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'init.js'; ?> "></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'js/popUpWhats.js'; ?>"></script>
 </head>
 
 <body>
@@ -148,7 +148,7 @@
         <br>
     </section>
     <?php
-    include '../footer.php';
+    include $APP_SHARED_PATH . 'footer.php';
     ?>
 </body>
 

@@ -1,5 +1,7 @@
 <!-- Página feita por Gabriel Prata -->
-
+<?php
+include 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,23 +20,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400&display=swap" rel="stylesheet">
 
     <!-- Estilos -->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="css/home.css" media="screen, projection">
+    <link href="<?php echo $APP_CSS_PATH . 'materialize.css'; ?>" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'style.css'; ?>" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'home.css'; ?>" media="screen, projection">
 
 
     <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="js/materialize.min.js" defer></script>
-    <script src="js/init.js"></script>
-    <script src="js/popUpWhats.js"></script>
-    <script src="js/animate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH .  'materialize.min.js'; ?>" defer></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'init.js'; ?> "></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'popUpWhats.js'; ?>"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'animate.js'; ?>"></script>
 </head>
 
 <body>
     <?php
-    include 'config.php';
     include $APP_SHARED_PATH . 'navbar.php';
     ?>
 
@@ -168,10 +168,7 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3412935914566!2d-47.3826829900281!3d-22.566335125705184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87fd5b985d48b%3A0x6f3aefdee188775c!2sChurrasqueiras%20PoliGrill!5e0!3m2!1spt-BR!2sbr!4v1683908794751!5m2!1spt-BR!2sbr"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3412935914566!2d-47.3826829900281!3d-22.566335125705184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87fd5b985d48b%3A0x6f3aefdee188775c!2sChurrasqueiras%20PoliGrill!5e0!3m2!1spt-BR!2sbr!4v1683908794751!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
                 </div>
             </div>
         </div>

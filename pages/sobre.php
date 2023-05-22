@@ -1,3 +1,6 @@
+<?php
+include '../config.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,16 +11,16 @@
   <title>Sobre</title>
 
   <!-- Estilos -->
-  <link rel="stylesheet" type="text/css" href="../css/materialize.css" media="screen, projection" />
-  <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection" />
+  <link href="<?php echo $APP_CSS_PATH . 'materialize.css'; ?>" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'style.css'; ?>" media="screen, projection">
 
   <!-- JavaScript -->
-  <script src="../js/materialize.min.js" defer></script>
+  <script src="<?php echo $APP_JAVASCRIPT_PATH .  'materialize.min.js'; ?>" defer></script>
+  <script src="<?php echo $APP_JAVASCRIPT_PATH . 'init.js'; ?> "></script>
 </head>
 
 <body>
   <?php
-  include '../config.php';
   include $APP_SHARED_PATH . '/navbar.php';
   ?>
   <div class="row">
@@ -66,7 +69,6 @@
   </div>
 
   <?php
-
   include $APP_SHARED_PATH . 'footer.php';
   ?>
 </body>
