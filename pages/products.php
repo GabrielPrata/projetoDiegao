@@ -1,5 +1,7 @@
-<!-- Página feita por Gabriel Prata -->
-
+<!-- higashi -->
+<?php
+include '..\config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,132 +22,161 @@
     <!-- Estilos -->
     <link href="<?php echo $APP_CSS_PATH . 'materialize.css'; ?>" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" type="text/css" href="<?php echo $APP_CSS_PATH . 'style.css'; ?>" media="screen, projection">
+    <link rel="stylesheet" href="../css/churras1.css">
 
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="<?php echo $APP_JAVASCRIPT_PATH .  'materialize.min.js'; ?>" defer></script>
     <script src="<?php echo $APP_JAVASCRIPT_PATH . 'init.js'; ?> "></script>
-    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'js/popUpWhats.js'; ?>"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'popUpWhats.js'; ?>"></script>
+    <script src="<?php echo $APP_JAVASCRIPT_PATH . 'animate.js'; ?>"></script>
 </head>
 
 <body>
     <?php
-    include '../config.php';
-    include $APP_SHARED_PATH . '/navbar.php';
+    include $APP_SHARED_PATH . 'navbar.php';
     ?>
 
-    <a href="#WhatsApp" onclick="tamanhoTela()">
-        <img src="img/icons/popupWhats.png" alt="Pop Up WhatsApp" id="popupZap">
-    </a>
-
-    <section>
-        <div class="parallax-container valign-wrapper">
-            <div class="section no-pad-bot row">
-                <div class="container">
-                    <div class="row center">
-                        <h5 class="tom-cinza-text">"Não fazemos churrasqueiras, transformamos vidas e propomos oportunidades de negócios"</h5>
-                        <p class="tom-cinza-text roboto" id="paragrafo-parallax-1">O ótimo resultado do seu negócio de espetinhos, que de algo aparentemente simples, o “assar espetinhos” precisou desenvolver melhorias para ser eficiente nos processos se deparando com diversos desafios...</p>
-                    </div>
-                </div>
+    <section class="sec-prod">
+        <div class="row apre">
+            <div class="col s12 l6">
+                <img src="../img/churras1a.png" class="primary" style="width: 100% !important;">
             </div>
-            <div class="parallax"><img src="img/carne-parallax.jpg" alt="Imagem Parallax 1"></div>
-        </div>
-    </section>
-    <br>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h1 class="roboto center-align titulos" id="titulo1">Por que a PoliGrill?</h1>
-                </div>
+            <div class="col s12 l2">
+                <img src="../img/churras1a.png" class="menu-img">
+                <img src="../img/churras1b.png" class="menu-img">
+                <img src="../img/churras1c.png" class="menu-img">
+                <img src="../img/churras1d.png" class="menu-img">
             </div>
-            <div class="row">
-                <div class="col s12 l5 right" id="img1">
-                    <img src="img/imagem-home1.png" alt="Imagem homem PoliGrill" id="imagemHomemChurrasqueira">
-                </div>
-                <div class="col s12 l7 left" id="texto1">
-                    A produção de churrasco em grande escala exige equipamentos robustos e eficientes. É por isso que a nossa empresa se dedica à fabricação de churrasqueiras industriais, desenvolvidas especificamente para atender às necessidades dos negócios de espetinhos e churrascarias.
-                    <br>
-                    Com anos de experiência na produção de churrasqueiras de alta qualidade, nossos equipamentos são projetados para oferecer o máximo desempenho e eficiência no preparo de carnes e outros alimentos. Utilizamos materiais resistentes e duráveis, como aço inoxidável de alta qualidade, para garantir a longevidade e durabilidade das nossas churrasqueiras.
-                    <br>
-                    Nosso objetivo é fornecer churrasqueiras industriais de alta qualidade que possam ajudar a impulsionar o seu negócio de espetinhos ou churrascaria. Com nossos equipamentos, você pode ter a certeza de que seus clientes receberão refeições deliciosas e de qualidade superior, preparadas de maneira rápida e eficiente.
-
-                </div>
+            <div class="col s12 l4">
+                <h3>Churrasqueira de Embutir Gourmet</h3>
+                <p>Inox a Carvão c/ 2 Grelha Argentina – PoliGrill 2G5EBIC</p>
+                <ul>
+                    <li><span class="ttlist">Linha</span> Residencial</li>
+                    <li><span class="ttlist">Subcategoria:</span> Portátil</li>
+                    <li><span class="ttlist">Cód. Ref.:</span> 2G5IC</li>
+                    <li><span class="ttlist">Material:</span> Inox 430</li>
+                    <li><span class="ttlist">Assar com:</span> Carvão</li>
+                    <li><span class="ttlist">Voltagem:</span> N/A</li>
+                </ul>
+                <br>
+                <button class="btnorca">orçamento</button>
             </div>
         </div>
-    </section>
-    <br>
-    <section class="tom-preto">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h1 class="tom-cinza-text roboto center-align titulos" id="titulo2">
-                        Nossos Diferenciais:
-                    </h1>
+
+        <div class="row">
+            <div class="col s12 center-align firstwrite">
+                <span class="flow-text">Churrasqueira de Embutir Gourmet - Inox a Carvão c/ 2 Grelha Argentina</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="ltcards">
+                    <h4 class="tt-card center-align">RESIDENCIAL DE EMBUTIR</h4>
+                    <p class="txt-card">Saiba mais detalhes sobre nossaChurrasqueira de EmbutirGourmet - Inox a Carvão c/ 2Grelha Argentina. Aschurrasqueiras de embutirgourmet da PoliGrill trazem todaa praticidade já conhecida dosoutros modelos, de uma maneirasimples de embutir ela na suacasa. Aproveite o design elegantee moderno para usá-la emambientes externos ou internosno dia a dia em seu lar.</p>
                 </div>
             </div>
-            <div class="row tom-cinza-text center-align">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center tom-cinza-text" id="icon1"><i class="material-icons large">done_all</i></h2>
-                        <div id="textIcon1">
-                            <h5 class="center">Maior Qualidade</h5>
 
-                            <p class="tom-cinza-text">
-                                Nós nos esforçamos para oferecer as melhores churrasqueiras industriais do mercado. Utilizamos materiais de alta qualidade e técnicas de fabricação de última geração para garantir que nossos produtos sejam duráveis, seguros e eficientes. Nossas churrasqueiras são projetadas para suportar altas temperaturas e uso intensivo, tornando-se uma opção confiável e duradoura para sua empresa.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col s12 l4">
+                <div class="ltcards">
+                    <h4 class="tt-card center-align">PEÇAS DE ENCAIXE FÁCIL</h4>
+                    <p class="txt-card">As churrasqueiras de embutirgourmet da PoliGrill sãoproduzidas para termanutenção simples, umproduto de alta qualidade quedure por muitos anos. Amanutenção é simples, pode serfeita por você mesmo, já que aspeças são de encaixe fácil epodem ser adquiridas, casonecessário, no nosso site.Montar, desmontar, limpar econsertar uma churrasqueiraPoliGrill é muito simples.</p>
                 </div>
+            </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center tom-cinza-text" id="icon2"><i class="material-icons large">brush</i></h2>
-                        <div id="textIcon2">
-                            <h5 class="center">Personalização</h5>
-
-                            <p class="tom-cinza-text">
-                                Sabemos que cada negócio tem necessidades diferentes, por isso oferecemos opções personalizadas de churrasqueiras industriais. Seja para atender às suas necessidades específicas de espaço, volume ou design, podemos adaptar nossas churrasqueiras para atender às suas demandas. Além disso, podemos adicionar recursos extras, como sistemas de ventilação e isolamento térmico, para tornar sua experiência de churrasco ainda melhor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center tom-cinza-text" id="icon3"><i class="material-icons large">support_agent</i></h2>
-                        <div id="textIcon3">
-                            <h5 class="center">Suporte ao Cliente</h5>
-
-                            <p class="tom-cinza-text">
-                                Nosso compromisso com a satisfação do cliente não acaba com a venda da churrasqueira. Oferecemos suporte completo aos nossos clientes, desde a instalação até o suporte técnico e manutenção. Nossa equipe experiente está sempre pronta para responder a qualquer pergunta ou solucionar qualquer problema que possa surgir. Você pode contar conosco para fornecer a melhor experiência possível de churrasco industrial.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col s12 l4">
+                <div class="ltcards">
+                    <h4 class="tt-card center-align title">ACESSÓRIOS DE PRIMEIRA</h4>
+                    <p class="txt-card">Também conhecidas comoparrilha, a grelha argentina tema função de escoar a gorduradas carnes para reservatórios,isso evita que caia no carvãoevitando o excesso de fumaça,além de labaredas e odesperdício de calor. A grelhaargentina permite assar suacarne mais próxima a brasa semo perigo de labaredas e fumaça,deixando-a mais suculentas,ideal para cortes de carne maisaltos. A gordura que descepelas canaletas pode seraplicada na carne com pincéisde silicone (não inclusos), porexemplo, deixando a maisbonita e suculenta.</p>
                 </div>
             </div>
         </div>
-        <br>
-    </section>
-    <section class="center-align">
-        <br>
-        <div class="conteiner">
-            <div class="row">
-                <div class="col s12">
-                    <h1 class="tom-preto-text roboto titulos" id="titulo3">
-                        Venha nos Visitar!
-                    </h1>
-                </div>
+
+        <div class="row">
+            <div class="col s12 center-align">
+                <h4 class="title">ECONÔMICA E AGRADÁVEL DE UTILIZAR</h4>
+                <p>Desenvolvemos um produto que permite o uso de maneira simples e agradável, e ao mesmo tempo consome menos carvão. O porta braseiro fica dentro da caixa externa, entre eles um bolsão de ar evita que o calor se espalhe pela área onde está a churrasqueira, permitindo um manuseio agradável e economizando carvão com a concentração de calor no braseiro.</p>
+
+                <h4 class="title">GARANTIA DE 6 MESES </h4>
+                <p>Todos os nossos produtos tem 6 meses de garantia contra defeitos de fabricação. Oferecemos tranquilidade para que possa usufruir de toda a qualidade de nossos produtos.</p>
             </div>
-            <div class="row">
-                <div class="col s12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3412935914566!2d-47.3826829900281!3d-22.566335125705184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87fd5b985d48b%3A0x6f3aefdee188775c!2sChurrasqueiras%20PoliGrill!5e0!3m2!1spt-BR!2sbr!4v1683908794751!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+
+        <div class="row center-align">
+            <div class="col s12">
+                <h2>Nossos Clientes!</h2>
+            </div>
+            <div class="col s12">
+                <div class="carousel">
+                    <a class="carousel-item" href="../img/cli1.png"><img class="imagemCarousel" src="../img/cli1.png"></a>
+                    <a class="carousel-item" href="../img/cli2.png"><img class="imagemCarousel" src="../img/cli2.png"></a>
+                    <a class="carousel-item" href="../img/cli3.png"><img class="imagemCarousel" src="../img/cli3.png"></a>
+                    <a class="carousel-item" href="../img/cli4.png"><img class="imagemCarousel" src="../img/cli4.png"></a>
+                    <a class="carousel-item" href="../img/cli5.png"><img class="imagemCarousel" src="../img/cli5.png"></a>
+                    <a class="carousel-item" href="../img/cli6.png"><img class="imagemCarousel" src="../img/cli6.png"></a>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+
+        <div class="row">
+            <div class="col s12 center-align">
+                <p class="text-vid">A experiência do cliente é o combustível que impulsiona o nosso desejo de ser cada dia melhor</p>
+                <iframe width="90%" height="400" src="https://www.youtube.com/embed/Ui5h13bIGmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 prod-rel">Produtos relacionados</div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/churras2.png">
+                        <span class="card-title">PoliGrill G5IC</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Saiba mais detalhes sobre nossa Churrasqueira de Embutir Gourmet – Inox a Carvão c/ Grelha Argentina – Inox a Carvão c/ Grelha Argentina.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conferir!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/churras3.png">
+                        <span class="card-title">PoliGrill 2G5IC</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Churrasqueira Gourmet Inox a Carvão c/ Grelha Argentina, o modelo acompanha 2 Grelha Argentina.</p><br>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conferir!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/churras4.png">
+                        <span class="card-title">PoliGrill M3G3IC</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Saiba mais detalhes sobre nossa Churrasqueira Gourmet portátil Inox a Carvão c/ Grill Giratório + Grelha Argentina a Churrasqueira Gourmet PoliGrill.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conferir!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <?php
     include $APP_SHARED_PATH . 'footer.php';

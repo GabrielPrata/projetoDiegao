@@ -1,4 +1,8 @@
 /* Estilos refentes a Navbar */
+.navbar-fixed {
+  z-index: 999; 
+}
+
 #logoHeader {
   height: 130px;
 }
@@ -74,6 +78,13 @@ A função de jQuery adiciona a classe animar, mudando a opacidade para 1
 e resetando o transform translate para 0px, 0px. 
 A animação só ocorre de forma suave devido ao transition adicionado em cada elemento. 
 */
+nav{
+  width: 100% !important;
+}
+
+body{
+  width: 100% !important;
+}
 
 .animar {
   opacity: 1 !important;

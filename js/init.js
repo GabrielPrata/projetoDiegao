@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
   $(".parallax").parallax();
-  $(".carousel").carousel();
+  $(".carousel").carousel({
+  });
   $("#tabSobre").tabs({ swipeable: true });
 });
