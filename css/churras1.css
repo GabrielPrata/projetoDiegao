@@ -1,0 +1,60 @@
+.sec-prod{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.title{
+    font-size: 2.2em;
+    color: black;
+    font-weight: bold;
+}
+
+/*apresentation*/
+.apre{
+    margin-top: 100px;
+}
+.menu-img{width: 10vw;}
+.primary{width: 35vw;margin-top: 20px;}
+
+.ttlist{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-vid{
+    font-size: 1.2em;
+}
+
+.btnorca{
+    padding: 15px;
+    font-size: 1.4em;
+    border: 2px solid #D91928;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #D91928;
+}
+/* Cards */
+.firstwrite{
+    color: #FFF;
+    background-color: #A60402;
+    font-size: 2.4em;
+}
+
+.ltcards{
+    border: 5px solid #A60402;
+    border-radius: 15px;
+    padding: 20px;
+    height: 500px;
+    text-align: justify;
+    text-justify: inter-word;   
+}
+
+.ttcard{
+    font: 1em;
+}
+
+.prod-rel{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
