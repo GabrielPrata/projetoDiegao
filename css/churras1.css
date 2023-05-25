@@ -3,10 +3,22 @@
     padding-right: 10vw;
 }
 
+.imagemCarousel{
+    width: 350px !important;
+}
+
 .title{
     font-size: 2.2em;
     color: black;
     font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.carousel{
+    width: 95% !important;
+    height: 400px !important;
+    margin-top: -5%;
+    margin-bottom: 2%;
 }
 
 /*apresentation*/
@@ -43,6 +55,7 @@
 .ltcards{
     border: 5px solid #A60402;
     border-radius: 15px;
+    margin-bottom: 15px;
     padding: 20px;
     height: 500px;
     text-align: justify;
